@@ -34,7 +34,7 @@ namespace VetApp
 
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Productos}/{action=Index}/{id?}");
 
             app.Run();
         }
